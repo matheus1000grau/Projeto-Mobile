@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgroundspace">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="584dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:lineSpacingExtra="24sp"
+        android:text="Galactical Invaders"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:background="@drawable/play_big"
+        android:onClick="startGame"
+        tools:ignore="UsingOnClickInXml" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="startGame"
+        android:text="Play"
+        android:textColor="#FDFDFD"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/exit"
+        android:onClick="sair"/>
+
+</LinearLayout>

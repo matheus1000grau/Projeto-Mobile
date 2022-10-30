@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GalacticalInvaders</string>
+    <string name="txtSair">Sair</string>
+    <string name="txtPlay">Play</string>
+</resources>
